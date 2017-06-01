@@ -2,8 +2,23 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8"/>
-		<title></title>
+		<title>Gestión SessionStorage</title>
 	</head>
 	<body>
+		<h2>Rellena las Opciones</h2>
+		<form>
+			<input type="text" id="usuario" placeholder="Introduce Nombre" size="29"/>
+			<select id="categoria">
+				<option value="">Selecciona categoría</option>
+				<option value="admin">Administrador</option>
+				<option value="editor">Editor</option>
+				<option value="usuario">Usuario</option>
+			</select><br/><br/>
+			<button type="button" id="grabar">Grabar</button>
+			<button type="button" id="leer">Leer</button>
+			<button type="button" id="leerTodo">Leer Todo</button>
+			<button type="button" id="borrar">Borrar</button>
+			<button type="button" id="borrarTodo">Borrar Todo</button>
+		</form>
 	</body>
 </html>
