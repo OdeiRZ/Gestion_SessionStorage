@@ -8,3 +8,12 @@ window.onload = function() {
     document.getElementById("borrarTodo").addEventListener("click", function(){ borrarTodo() });
 	document.getElementById("categoria").options[0].disabled = true;
 }
+
+function grabarItem(user, categoria) {
+    if (user.value.length != 0 && categoria.value.length != 0) {
+        sessionStorage.setItem(user.value, categoria.value);
+		alert(user.value + " -> " + categoria.value);
+    } else {
+        alert("Rellena el nombre y selecciona la categoría para almacenarlo");
+    }
+}
