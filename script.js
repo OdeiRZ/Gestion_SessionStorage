@@ -45,3 +45,19 @@ function leerTodo() {
         alert("No hay datos guardados");
     }
 }
+
+function borrarItem(user) {
+    if (user.value.length != 0) {
+        var sw = false;
+        for (var i=0; i<sessionStorage.length; i++) {
+            if (sessionStorage.key(i) == user.value) {
+                sessionStorage.removeItem(user.value);
+                sw = true;
+                break;
+            }
+        }
+        (sw) ? alert("Datos de " + user.value + " eliminados") : alert("No se encontró el nombre");
+    } else {
+        alert("Rellena el Nombre para borrar sus datos");
+    }
+}
