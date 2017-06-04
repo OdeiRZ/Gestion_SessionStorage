@@ -1,4 +1,4 @@
-Gestión SessionStorage 0.95
+Gestión SessionStorage 0.96
 ================================
 
 Aplicación demo para la gestión de datos de aplicaciones web en sesiones desarrollada en JavaScript y HTML.
@@ -10,6 +10,6 @@ manera, y borrarlos de la misma forma, posibilitando así todas las tareas de un
 de manera satisfactoria.
 
 ## Licencia
-Esta aplicación se ofrece bajo licencia [AGPL versión 3].
+Esta aplicación se ofrece bajo licencia [GPL versión 3].
 
-[AGPL versión 3]: http://www.gnu.org/licenses/agpl.html
+[GPL versión 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
