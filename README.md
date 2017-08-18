@@ -9,12 +9,16 @@ propias de la aplicación. La demo permite grabar datos, leerlos individual y co
 manera, y borrarlos de la misma forma, posibilitando así todas las tareas de un mantenimiento básico de datos 
 de manera satisfactoria.
 
+Para cualquier referencia relacionada con el sitio, podemos ver la demo desplegada 
+visitando el siguiente [enlace].
+
 ## Requisitos
 - Navegador Web [Chrome], [Firefox], [Opera], [Microsoft Edge], etc..
 
 ## Licencia
 Esta aplicación se ofrece bajo licencia [GPL versión 3].
 
+[enlace]: https://odeirz.github.io/Gestion_SessionStorage/public/
 [Chrome]: https://www.google.es/chrome/browser/desktop/index.html
 [Firefox]: https://www.mozilla.org/es-ES/firefox/new/
 [Opera]: http://www.opera.com/es
