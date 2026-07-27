@@ -1,26 +1,32 @@
-Gestión SessionStorage 0.96
-================================
+# Gestión SessionStorage
 
-Aplicación demo para la gestión de datos de aplicaciones web en sesiones desarrollada en JavaScript y HTML.
-Permite gestionar datos almacenados en la sesión actual mediante el propio navegador, todo ello de una manera.
+Demo en JavaScript y HTML que muestra el uso básico de la API `sessionStorage` del navegador para persistir datos clave-valor durante la sesión de la pestaña.
 
-Desde el programa podremos elegir entre diferentes opciones, desde las que gestionaremos las funciones 
-propias de la aplicación. La demo permite grabar datos, leerlos individual y colectivamente, listarlos de igual
-manera, y borrarlos de la misma forma, posibilitando así todas las tareas de un mantenimiento básico de datos 
-de manera satisfactoria.
+## Características
 
-Para cualquier referencia relacionada con el sitio, podemos ver la demo desplegada 
-visitando el siguiente [enlace].
+- Guardar un dato asociando un nombre de usuario a una categoría (Administrador, Editor o Usuario) mediante `sessionStorage.setItem`.
+- Leer el valor asociado a un nombre concreto.
+- Listar todos los pares clave-valor almacenados actualmente en `sessionStorage`.
+- Borrar el dato asociado a un nombre concreto (`sessionStorage.removeItem`).
+- Vaciar por completo el almacenamiento de la sesión (`sessionStorage.clear`).
+- Mensajes de aviso (`alert`) para validar que los campos requeridos estén rellenos antes de operar.
 
-## Requisitos
-- Navegador Web [Chrome], [Firefox], [Opera], [Microsoft Edge], etc..
+A diferencia de `localStorage`, los datos guardados aquí desaparecen al cerrar la pestaña o ventana del navegador.
+
+## Tecnologías
+
+- HTML5
+- JavaScript vanilla (API `sessionStorage`, sin frameworks ni dependencias externas)
+
+## Instalación / Cómo ejecutarlo
+
+No requiere instalación ni servidor:
+
+1. Clona el repositorio.
+2. Abre `public/index.html` directamente en un navegador (Chrome, Firefox, Edge, etc.).
+
+Ejercicio académico que practica el uso de la API `sessionStorage` para almacenar datos temporales en el navegador durante la sesión de la pestaña.
 
 ## Licencia
-Esta aplicación se ofrece bajo licencia [GPL versión 3].
 
-[enlace]: https://odeirz.github.io/Gestion_SessionStorage/public/
-[Chrome]: https://www.google.es/chrome/browser/desktop/index.html
-[Firefox]: https://www.mozilla.org/es-ES/firefox/new/
-[Opera]: http://www.opera.com/es
-[Microsoft Edge]: https://www.microsoft.com/es-es/windows/microsoft-edge
-[GPL versión 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
+GPL versión 3 (ver archivo [LICENSE](LICENSE)).
